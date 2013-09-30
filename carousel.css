@@ -1,0 +1,49 @@
+﻿body {
+}
+
+.container {
+    position: absolute;
+    height: 33%;
+    width: 100%;
+    top: 33%;
+    bottom: 33%;
+    /*vertical-align: central;*/
+    overflow: hidden;
+}
+
+
+.item0, .item1, .item2, .item3, .item4, .item5 {
+    position: absolute;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    margin-left: 20px;
+    border: 1px solid black;
+    font: bold 100px arial;
+    line-height: 200px;
+    text-align: center;
+}
+
+.item0 {
+    left: 0px;
+}
+
+.item1 {
+    left: 300px;
+}
+
+.item2 {
+    left: 600px;
+}
+
+.item3 {
+    left: 900px;
+}
+
+.item4 {
+    left: 1200px;
+}
+
+.item5 {
+    left: 1500px;
+}
